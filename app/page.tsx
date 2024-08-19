@@ -1,10 +1,10 @@
-import Nav from '@/components/Navbar/Nav'
+import Dashboard from '@/components/Home/Dashboard'
 import React from 'react'
 
 const HomePage = () => {
   return (
     <div>
-      <Nav />
+      <Dashboard />
     </div>
   )
 }
