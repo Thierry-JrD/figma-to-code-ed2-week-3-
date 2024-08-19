@@ -1,9 +1,9 @@
 import React from 'react'
+import Nav from './Navbar/Nav'
 
 const Dashboard = () => {
   return (
-    <div>
-      
+    <div className='w-full h-full ring-1 ring-red-500'>
     </div>
   )
 }

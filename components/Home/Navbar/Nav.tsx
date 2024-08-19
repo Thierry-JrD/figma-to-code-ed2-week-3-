@@ -1,10 +1,9 @@
-import Image from 'next/image'
 import React from 'react'
+import SideNav from './SideNav'
 
 const Nav = () => {
   return (
-    <div className=''>
-        
+    <div className='w-[1200px] h-[62px] ring-1 ring-blue-400'>
     </div>
   )
 }
