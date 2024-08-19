@@ -1,0 +1,1 @@
+After you cloned your online repository use the command "npm install" in the teminal before to "npm run dev" your project.
