@@ -3,7 +3,7 @@ import React from 'react'
 
 const HomePage = () => {
   return (
-    <div className='w-full'>
+    <div className='flex justify-center'>
       <Dashboard />
     </div>
   )

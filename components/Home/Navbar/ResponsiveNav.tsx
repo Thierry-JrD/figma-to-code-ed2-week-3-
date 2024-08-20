@@ -5,7 +5,7 @@ import SideNav from './SideNav'
 const ResponsiveNav = () => {
   return (
     <div className='w-full flex justify-center'>
-      <SideNav className='hidden xl:block' />
+      <SideNav />
       <Nav />
     </div>
   )
