@@ -1,9 +1,16 @@
+'use client'
+
+import Nav from '../components/Nav'
 import React from 'react'
+import { ThemeProvider } from '../modules/LightOrDarkMode'
 
 const HomePage = () => {
   return (
-    <div>
-    </div>
+    <ThemeProvider>
+      <div>
+        <Nav />
+      </div>
+    </ThemeProvider>
   )
 }
 
