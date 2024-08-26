@@ -8,7 +8,7 @@ const Nav = () => {
     /*const { theme, toggleTheme } = useTheme();*/
 
     return (
-        <div className='w-full h-[62px]  ring-1 ring-tgray flex items-center justify-between px-5 py-3 sm:px-10 lg:px-5 transform duration-500'>
+        <div className='w-full h-[62px] border-[1px] border-solid border-b-tgray flex items-center justify-between px-5 py-3 sm:px-10 lg:px-5 transform duration-500'>
           {/* normal sm: lg: xl: 2xl: */}
           
           <div className=' w-[192px] sm:w-[413px] flex justify-between transform duration-500'>

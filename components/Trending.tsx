@@ -2,7 +2,7 @@ import React from 'react'
 
 const Trending = () => {
   return (
-    <div className='w-full space-y-5'> {/* Container */}
+    <div className='w-full flex flex-col'> {/* Container */}
 
       <div className='flex items-center justify-between'>
             <h2 className='w-full text-tdark text-lg font-semibold'>Trending</h2>
@@ -11,10 +11,10 @@ const Trending = () => {
             </a>
       </div>
 
-      <div className='grid grid-cols-2 gap-2 lg:flex lg:'> {/* Coins container */}
+      <div className='grid grid-cols-2 gap-3 lg:flex lg:items-center lg:justify-between lg:flex-nowrap'> {/* Coins container */}
 
         {/* Coin Info */}
-        <div className='p-3 ring-1 ring-tlightgray rounded-[10px] space-y-3'>
+        <div className='w-full p-3 ring-1 ring-tlightgray rounded-[10px] space-y-3'>
 
             <div className='flex justify-between text-tdarkgray'>
                 <div className='flex items-center gap-2'>
@@ -34,7 +34,7 @@ const Trending = () => {
         </div>
 
         {/* Coin Info */}
-        <div className='p-3 ring-1 ring-tlightgray rounded-[10px] space-y-3'>
+        <div className='w-full p-3 ring-1 ring-tlightgray rounded-[10px] space-y-3'>
 
             <div className='flex justify-between text-tdarkgray'>
                 <div className='flex items-center gap-2'>
@@ -54,7 +54,7 @@ const Trending = () => {
         </div>
 
         {/* Coin Info */}
-        <div className='p-3 ring-1 ring-tlightgray rounded-[10px] space-y-3'>
+        <div className='w-full p-3 ring-1 ring-tlightgray rounded-[10px] space-y-3'>
 
             <div className='flex justify-between text-tdarkgray'>
                 <div className='flex items-center gap-2'>
@@ -74,7 +74,7 @@ const Trending = () => {
         </div>
 
         {/* Coin Info */}
-        <div className='p-3 ring-1 ring-tlightgray rounded-[10px] space-y-3'>
+        <div className='w-full p-3 ring-1 ring-tlightgray rounded-[10px] space-y-3'>
 
             <div className='flex justify-between text-tdarkgray'>
                 <div className='flex items-center gap-2'>
